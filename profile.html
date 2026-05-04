@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 40px;
+  background: #eee;
+  height: 100vh;
+}
+
+
+.profile-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.info-box {
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="sidenav">
+  <a onclick="alert('...')">Dashboard</a>
+  <a onclick="alert('...')">Virtual Notebooks</a>
+  <a onclick="alert('...')">Tasks</a>
+ <a onclick="alert('...')">Logout</a>
+</div>
+
+
+<div class="main">
+  <h2>PROFILE</h2>
+
+  <div class="profile-container">
+
+   
+    <div class="info-box">
+      <h3>Student Information</h3>
+
+      <p><b>Student ID:</b> SN104140750</p>
+      <p><b>Contact Number:</b> +0906314159</p>
+      <p><b>Email:</b></p>
+        <p>oquendo.jg@obmontessori.edu.ph</p>
+      <p><b>Gender:</b> Male</p>
+
+      <button>Change Password</button>
+    </div>
+
+  </div>
+</div>
+    
+</body>
+</html>
